@@ -1,10 +1,11 @@
 package BusReservation;
 
 public class Bus {
+    //private instances
       private int BusNumber;
       private boolean AC;
       private int SeatingCapacity;
-      
+    //Constructor
       Bus(int BusNum,boolean ac,int SeatCap){
     	  this.BusNumber=BusNum;
     	  this.AC=ac;
